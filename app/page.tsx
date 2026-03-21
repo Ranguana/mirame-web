@@ -1,3 +1,5 @@
+import WaitlistForm from "./WaitlistForm";
+
 export default function Home() {
   return (
     <>
@@ -224,7 +226,7 @@ export default function Home() {
 
       {/* ---- WAITLIST ---- */}
       <section className="waitlist" id="waitlist">
-        <div className="waitlist-inner">
+        <div className="waitlist-inner" style={{ position: "relative" }}>
           <h2 className="waitlist-heading">
             Join the spectrum.<br />
             <em>Every shade welcome.</em>
@@ -233,23 +235,7 @@ export default function Home() {
             Be among the first to build your beauty profile, find your people,
             and celebrate what makes you, you.
           </p>
-          <form
-            className="waitlist-form"
-            action="https://formspree.io/f/placeholder"
-            method="POST"
-          >
-            <input
-              type="email"
-              name="email"
-              className="waitlist-input"
-              placeholder="Your email address"
-              required
-              aria-label="Email address"
-            />
-            <button type="submit" className="waitlist-submit">
-              Join Waitlist
-            </button>
-          </form>
+          <WaitlistForm />
         </div>
       </section>
 
