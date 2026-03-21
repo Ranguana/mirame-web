@@ -3,12 +3,6 @@ import WaitlistForm from "./WaitlistForm";
 export default function Home() {
   return (
     <>
-      {/* ---- TOP BAR ---- */}
-      <div className="top-bar">
-        <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
-        Coming Soon
-      </div>
-
       {/* ---- SWATCH CARD WRAPPER ---- */}
       <div className="swatch-card">
         {/* ---- MASTHEAD ---- */}
@@ -17,10 +11,9 @@ export default function Home() {
           <h1 className="masthead-title">MiraMe</h1>
           <p className="masthead-tagline">Mira. That&rsquo;s You.</p>
           <nav className="masthead-nav">
-            <a href="#about">About</a>
-            <a href="#pillars">Profiles</a>
+            <a href="#runway">The Feed</a>
+            <a href="#pillars">Your Profile</a>
             <a href="#how">How It Works</a>
-            <a href="#runway">Runway</a>
             <a href="#waitlist">Join</a>
           </nav>
         </header>
@@ -29,16 +22,17 @@ export default function Home() {
         <section className="hero">
           <div className="hero-left">
             <span className="swatch-label">CREAM · #FBF7F3</span>
+            <p className="hero-kicker">A new kind of beauty app</p>
             <h2 className="hero-headline">
-              Beauty in <em>every frequency.</em>
+              Post it. Tag it. <em>Shop it.</em>
             </h2>
             <p className="hero-deck">
-              MiraMe matches you with real people who share your skin tone, hair
-              texture, and beauty profile. The best recommendations come from
-              those who truly get yours.
+              MiraMe is a beauty social network where your feed is powered by
+              people who actually share your skin tone, hair texture, and style.
+              Every post is shoppable. Every recommendation is real.
             </p>
             <a href="#waitlist" className="cta-btn">
-              Get Early Access
+              Join the Waitlist
             </a>
           </div>
           <div className="hero-right">
@@ -71,7 +65,7 @@ export default function Home() {
         <section className="color-banner color-banner--fuchsia">
           <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
           <p className="color-banner-text">
-            Beauty has no single shade.
+            Your feed. Your people. Your products.
           </p>
         </section>
 
@@ -79,7 +73,7 @@ export default function Home() {
         <section className="pillars" id="pillars">
           <div className="pillars-header">
             <span className="swatch-label">HONEY · #F7CDA2</span>
-            <h2 className="section-heading">Three Dimensions. One You.</h2>
+            <h2 className="section-heading">Your profile powers your feed.</h2>
           </div>
           <div className="pillars-grid">
             {/* KIT */}
@@ -88,9 +82,7 @@ export default function Home() {
               <h3 className="pillar-name">KIT</h3>
               <p className="pillar-subtitle">Your Makeup Profile</p>
               <p className="pillar-desc">
-                KIT maps your makeup routine by coverage, finish, and style.
-                Discover products from people with the same preferences and
-                complexion.
+                Your makeup preferences shape what you see and who sees you.
               </p>
               <div className="pillar-tags">
                 <span className="pillar-tag">Coverage</span>
@@ -106,9 +98,8 @@ export default function Home() {
               <h3 className="pillar-name">SKIN</h3>
               <p className="pillar-subtitle">Your Skincare Profile</p>
               <p className="pillar-desc">
-                Powered by the Monk Scale, SKIN captures your tone, type,
-                undertone, and concerns. Skincare recs from someone whose skin
-                actually behaves like yours.
+                Monk Scale skin tone matching means recommendations from people
+                who actually look like you.
               </p>
               <div className="pillar-tags">
                 <span className="pillar-tag">Monk Scale</span>
@@ -124,9 +115,8 @@ export default function Home() {
               <h3 className="pillar-name">CROWN</h3>
               <p className="pillar-subtitle">Your Hair Profile</p>
               <p className="pillar-desc">
-                From 1A to 4C, CROWN knows your hair. Type, texture, porosity,
-                density &mdash; matched with others who understand exactly what
-                your hair needs.
+                Hair type 1A through 4C &mdash; matched so your feed speaks
+                your texture.
               </p>
               <div className="pillar-tags">
                 <span className="pillar-tag">Hair Type</span>
@@ -149,32 +139,28 @@ export default function Home() {
               <div className="how-step-num">01</div>
               <h3 className="how-step-title">Take the Quiz</h3>
               <p className="how-step-desc">
-                A visual, guided quiz captures your skin tone, hair type, and
-                makeup preferences. Two minutes.
+                Two minutes to build your beauty profile.
               </p>
             </div>
             <div className="how-step">
               <div className="how-step-num">02</div>
-              <h3 className="how-step-title">Build Your Profile</h3>
+              <h3 className="how-step-title">Get Your Feed</h3>
               <p className="how-step-desc">
-                Your answers create KIT, SKIN, and CROWN profiles &mdash; three
-                dimensions that make you uniquely you.
+                Matched content from people who share your profile.
               </p>
             </div>
             <div className="how-step">
               <div className="how-step-num">03</div>
-              <h3 className="how-step-title">Find Your Mirror</h3>
+              <h3 className="how-step-title">Post Your Routine</h3>
               <p className="how-step-desc">
-                Our matching algorithm connects you with people who share your
-                profile. Your mirror, verified.
+                Share what works. Tag your products.
               </p>
             </div>
             <div className="how-step">
               <div className="how-step-num">04</div>
-              <h3 className="how-step-title">Shop &amp; Share</h3>
+              <h3 className="how-step-title">Shop in One Tap</h3>
               <p className="how-step-desc">
-                Discover products that work for people like you. Share your own
-                routines on the Runway.
+                Buy directly from any post on your feed.
               </p>
             </div>
           </div>
@@ -184,21 +170,21 @@ export default function Home() {
         <section className="color-banner color-banner--rose">
           <span className="swatch-label">DEEP ROSE · #7A1F1F</span>
           <p className="color-banner-text">
-            Real recommendations from real people.
+            Real people. Real routines. Real results.
           </p>
         </section>
 
         {/* ---- RUNWAY PREVIEW ---- */}
         <section className="runway-preview" id="runway">
           <div className="runway-left">
-            <h2 className="section-heading">The Runway.</h2>
+            <h2 className="section-heading">The Runway</h2>
             <p className="section-body" style={{ marginBottom: 32 }}>
-              Post your routines, tag your products, shop directly from people
-              who match your profile. Every post is shoppable. Every
-              recommendation is real.
+              A shoppable feed of real beauty routines from people who match
+              your profile. See what works for someone with your exact skin
+              tone and hair type &mdash; then shop it in one tap.
             </p>
             <a href="#waitlist" className="cta-btn cta-btn--outline">
-              Be First on the Runway
+              Join the Waitlist
             </a>
           </div>
           <div className="runway-right">
@@ -253,12 +239,11 @@ export default function Home() {
           <span className="swatch-label">OXBLOOD · #2D0A0A</span>
           <div className="waitlist-inner" style={{ position: "relative" }}>
             <h2 className="waitlist-heading">
-              Join the spectrum.<br />
-              <em>Every shade welcome.</em>
+              Get on <em>the feed.</em>
             </h2>
             <p className="waitlist-sub">
-              Be among the first to build your beauty profile, find your people,
-              and celebrate what makes you, you.
+              MiraMe is launching soon. Join the waitlist to be first on the
+              Runway.
             </p>
             <WaitlistForm />
           </div>
@@ -279,9 +264,9 @@ export default function Home() {
               </div>
               <div className="footer-col">
                 <div className="footer-col-title">Product</div>
-                <a href="#pillars">Profiles</a>
+                <a href="#runway">The Feed</a>
+                <a href="#pillars">Your Profile</a>
                 <a href="#how">How It Works</a>
-                <a href="#runway">Runway</a>
               </div>
               <div className="footer-col">
                 <div className="footer-col-title">Legal</div>
