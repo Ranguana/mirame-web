@@ -40,13 +40,7 @@ export default function Home() {
           </div>
           <div className="hero-right">
             <span className="swatch-label">EMBER · #C4714A</span>
-            <div className="hero-features">
-              <div className="hero-feature-list">
-                <div className="hero-feature-item">Every Tone Celebrated</div>
-                <div className="hero-feature-item">Every Texture Honored</div>
-                <div className="hero-feature-item">Every Routine Shared</div>
-              </div>
-            </div>
+            <div className="hero-right-tagline">Mira. That&rsquo;s You.</div>
           </div>
         </section>
 
