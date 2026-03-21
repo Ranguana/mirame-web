@@ -75,25 +75,6 @@ export default function Home() {
           </p>
         </section>
 
-        {/* ---- CONCEPT ---- */}
-        <section className="concept" id="about">
-          <div className="concept-left">
-            <span className="swatch-label">OXBLOOD · #2D0A0A</span>
-            <div className="concept-quote">
-              We don&rsquo;t come in one shade. We come in all of them.
-            </div>
-          </div>
-          <div className="concept-right">
-            <span className="swatch-label">BONE · #F5EDE4</span>
-            <p className="section-body">
-              Beauty has never been one-size-fits-all. MiraMe is a community that
-              celebrates the <strong>full spectrum</strong> of skin tones, hair
-              textures, and styles &mdash; connecting you with people who live in
-              the same beautiful frequency you do.
-            </p>
-          </div>
-        </section>
-
         {/* ---- THREE PILLARS ---- */}
         <section className="pillars" id="pillars">
           <div className="pillars-header">
