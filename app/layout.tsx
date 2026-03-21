@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MiraMe — Every Shade Is the Shade",
+  title: "MiraMe — Mira. That's You.",
   description:
     "A beauty community that celebrates every shade, every texture, every you. Coming soon.",
   openGraph: {
-    title: "MiraMe — Every Shade Is the Shade",
+    title: "MiraMe — Mira. That's You.",
     description:
       "A beauty community that celebrates every shade, every texture, every you.",
     url: "https://mirame.care",

@@ -9,7 +9,7 @@ export default function Home() {
       {/* ---- MASTHEAD ---- */}
       <header className="masthead">
         <h1 className="masthead-title">MiraMe</h1>
-        <p className="masthead-tagline">Every Shade Is the Shade</p>
+        <p className="masthead-tagline">Mira. That&rsquo;s You.</p>
         <nav className="masthead-nav">
           <a href="#about">About</a>
           <a href="#pillars">Profiles</a>
@@ -59,7 +59,7 @@ export default function Home() {
           <div style={{ backgroundColor: "#3B200F" }} />
           <div style={{ backgroundColor: "#1C0D07" }} />
         </div>
-        <p className="monk-strip-label">Every shade is the shade.</p>
+        <p className="monk-strip-label">Mira. That&rsquo;s You.</p>
       </section>
 
       {/* ---- CONCEPT ---- */}
@@ -275,7 +275,7 @@ export default function Home() {
         <div className="footer-top">
           <div>
             <div className="footer-brand">MiraMe</div>
-            <div className="footer-tagline">Every Shade Is the Shade</div>
+            <div className="footer-tagline">Mira. That&rsquo;s You.</div>
           </div>
           <div className="footer-links">
             <div className="footer-col">
