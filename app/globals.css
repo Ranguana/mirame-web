@@ -113,8 +113,8 @@ body {
 .masthead {
   text-align: center;
   padding: var(--space-xxl) var(--space-lg) var(--space-xl);
-  background-color: var(--cream);
-  border-bottom: 0.5px solid var(--border);
+  background-color: var(--paper);
+  border-bottom: 3px solid var(--paper);
 }
 
 .masthead-title {
@@ -167,7 +167,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 80vh;
-  border-bottom: 0.5px solid var(--border);
+  border-bottom: 3px solid var(--paper);
 }
 
 .hero-left {
@@ -314,7 +314,7 @@ body {
 .monk-strip {
   padding: var(--space-xxl) 0 var(--space-xl);
   background-color: var(--cream);
-  border-bottom: 0.5px solid var(--border);
+  border-bottom: 3px solid var(--paper);
 }
 
 .monk-strip-blocks {
@@ -344,6 +344,7 @@ body {
   background-color: var(--ember);
   padding: 80px var(--space-xxxl);
   text-align: center;
+  border-bottom: 3px solid var(--paper);
 }
 
 .color-banner--rose {
@@ -366,7 +367,7 @@ body {
 .concept {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 0.5px solid var(--border);
+  border-bottom: 3px solid var(--paper);
 }
 
 .concept-left {
@@ -450,13 +451,14 @@ body {
 /* ---- THREE PILLARS ---- */
 
 .pillars {
-  background-color: var(--cream);
-  border-bottom: 0.5px solid var(--border);
+  background-color: #F7CDA2;
+  border-bottom: 3px solid var(--paper);
 }
 
 .pillars-header {
   text-align: center;
   padding: 80px var(--space-lg) var(--space-xxxl);
+  background: transparent;
 }
 
 .pillars-grid {
@@ -469,16 +471,17 @@ body {
 }
 
 .pillar {
-  background-color: var(--bone);
+  background-color: rgba(255,255,255,0.7);
   border-radius: var(--radius-md);
   padding: var(--space-xxl) var(--space-xl);
   box-shadow: 0 1px 4px rgba(45, 10, 10, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
 }
 
 .pillar:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(45, 10, 10, 0.1);
+  background-color: rgba(255,255,255,0.9);
 }
 
 .pillar--crown {
@@ -584,8 +587,8 @@ body {
 /* ---- HOW IT WORKS ---- */
 
 .how-it-works {
-  background-color: var(--bone);
-  border-bottom: 0.5px solid var(--border);
+  background-color: #EDE8E4;
+  border-bottom: 3px solid var(--paper);
   padding: 100px var(--space-xxxl);
 }
 
@@ -649,7 +652,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cream);
-  border-bottom: 0.5px solid var(--border);
+  border-bottom: 3px solid var(--paper);
 }
 
 .runway-left {
@@ -660,7 +663,7 @@ body {
 }
 
 .runway-right {
-  background-color: var(--bone);
+  background-color: #EAAC7F;
   padding: 64px;
   display: flex;
   align-items: center;
@@ -786,6 +789,7 @@ body {
   background-color: var(--oxblood);
   padding: 120px var(--space-xxxl);
   text-align: center;
+  border-bottom: 3px solid var(--paper);
 }
 
 .waitlist-inner {
@@ -972,6 +976,28 @@ body {
   color: var(--ember);
 }
 
+/* ---- SWATCH CARD / PAINT CHIP LABELS ---- */
+
+.swatch-label {
+  display: block;
+  font-family: var(--sans);
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  opacity: 0.35;
+  font-weight: 500;
+  margin-bottom: var(--space-base);
+}
+
+.swatch-label--light {
+  color: var(--text-inverse);
+}
+
+.swatch-card {
+  /* The card container — adds the slightest shadow like a real swatch card */
+  box-shadow: 0 2px 20px rgba(45, 10, 10, 0.08);
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1027,6 +1053,10 @@ body {
 }
 
 @media (max-width: 640px) {
+  .swatch-label {
+    display: none;
+  }
+
   .masthead {
     padding: var(--space-xl) var(--space-base) var(--space-lg);
   }
