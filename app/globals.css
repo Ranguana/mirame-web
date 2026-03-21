@@ -309,11 +309,56 @@ body {
   background-color: #b5623e;
 }
 
-/* ---- DIVIDER ---- */
+/* ---- MONK SCALE STRIP ---- */
 
-.divider {
-  height: 0.5px;
-  background-color: var(--border);
+.monk-strip {
+  padding: var(--space-xxl) 0 var(--space-xl);
+  background-color: var(--cream);
+  border-bottom: 0.5px solid var(--border);
+}
+
+.monk-strip-blocks {
+  display: flex;
+  width: 100%;
+}
+
+.monk-strip-blocks > div {
+  flex: 1;
+  height: 64px;
+}
+
+.monk-strip-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: var(--deep-rose);
+  font-weight: 600;
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+/* ---- COLOR BANNERS ---- */
+
+.color-banner {
+  background-color: var(--ember);
+  padding: 80px var(--space-xxxl);
+  text-align: center;
+}
+
+.color-banner--rose {
+  background-color: var(--deep-rose);
+}
+
+.color-banner-text {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 52px);
+  font-weight: normal;
+  color: var(--paper);
+  line-height: 1.15;
+  letter-spacing: -0.3px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* ---- CONCEPT / ABOUT ---- */
@@ -1069,5 +1114,17 @@ body {
 
   .runway-right {
     padding: 40px 24px;
+  }
+
+  .monk-strip-blocks > div {
+    height: 40px;
+  }
+
+  .monk-strip {
+    padding: var(--space-lg) 0 var(--space-base);
+  }
+
+  .color-banner {
+    padding: 56px 24px;
   }
 }

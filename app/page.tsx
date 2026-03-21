@@ -45,6 +45,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ---- MONK SCALE STRIP ---- */}
+      <section className="monk-strip">
+        <div className="monk-strip-blocks">
+          <div style={{ backgroundColor: "#F6EDE4" }} />
+          <div style={{ backgroundColor: "#F3E7DB" }} />
+          <div style={{ backgroundColor: "#F7CDA2" }} />
+          <div style={{ backgroundColor: "#EAAC7F" }} />
+          <div style={{ backgroundColor: "#D08B5B" }} />
+          <div style={{ backgroundColor: "#AE6B3B" }} />
+          <div style={{ backgroundColor: "#8D4A26" }} />
+          <div style={{ backgroundColor: "#5C3317" }} />
+          <div style={{ backgroundColor: "#3B200F" }} />
+          <div style={{ backgroundColor: "#1C0D07" }} />
+        </div>
+        <p className="monk-strip-label">Every shade is the shade.</p>
+      </section>
+
       {/* ---- CONCEPT ---- */}
       <section className="concept" id="about">
         <div className="concept-left">
@@ -124,6 +141,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ---- EMBER COLOR BANNER ---- */}
+      <section className="color-banner">
+        <p className="color-banner-text">
+          Your beauty. Your community. Your mirror.
+        </p>
+      </section>
+
       {/* ---- HOW IT WORKS ---- */}
       <section className="how-it-works" id="how">
         <div style={{ textAlign: "center" }}>
@@ -163,6 +187,13 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* ---- DEEP ROSE COLOR BANNER ---- */}
+      <section className="color-banner color-banner--rose">
+        <p className="color-banner-text">
+          Real recommendations from real people.
+        </p>
       </section>
 
       {/* ---- RUNWAY PREVIEW ---- */}
