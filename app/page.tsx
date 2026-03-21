@@ -105,7 +105,7 @@ export default function Home() {
           </div>
 
           {/* CROWN */}
-          <div className="pillar">
+          <div className="pillar pillar--crown">
             <div className="pillar-icon pillar-icon--crown">C</div>
             <h3 className="pillar-name">CROWN</h3>
             <p className="pillar-subtitle">Your Hair Profile</p>
