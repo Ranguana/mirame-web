@@ -138,14 +138,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ---- GOLD COLOR BANNER ---- */}
-        <section className="color-banner color-banner--gold">
-          <span className="swatch-label">GOLD · #E2B93B</span>
-          <p className="color-banner-text">
-            Your beauty. Your community. Your mirror.
-          </p>
-        </section>
-
         {/* ---- HOW IT WORKS ---- */}
         <section className="how-it-works" id="how">
           <span className="swatch-label">SAND · #EDE8E4</span>
