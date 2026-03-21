@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* ---- MASTHEAD ---- */}
       <header className="masthead">
-        <h1 className="masthead-title">MIRAME</h1>
+        <h1 className="masthead-title">MiraMe!</h1>
         <p className="masthead-tagline">Every Shade Is the Shade</p>
         <nav className="masthead-nav">
           <a href="#about">About</a>
@@ -26,7 +26,7 @@ export default function Home() {
             Beauty in <em>every frequency.</em>
           </h2>
           <p className="hero-deck">
-            MiraMe matches you with real people who share your skin tone, hair
+            MiraMe! matches you with real people who share your skin tone, hair
             texture, and beauty profile. The best recommendations come from
             those who truly get yours.
           </p>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="concept-right">
           <p className="section-body">
-            Beauty has never been one-size-fits-all. MiraMe is a community that
+            Beauty has never been one-size-fits-all. MiraMe! is a community that
             celebrates the <strong>full spectrum</strong> of skin tones, hair
             textures, and styles &mdash; connecting you with people who live in
             the same beautiful frequency you do.
@@ -243,7 +243,7 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-top">
           <div>
-            <div className="footer-brand">MIRAME</div>
+            <div className="footer-brand">MiraMe!</div>
             <div className="footer-tagline">Every Shade Is the Shade</div>
           </div>
           <div className="footer-links">
@@ -267,7 +267,7 @@ export default function Home() {
         </div>
         <div className="footer-bottom">
           <p className="footer-copy">
-            &copy; 2026 MiraMe. All rights reserved.
+            &copy; 2026 MiraMe! All rights reserved.
           </p>
           <div className="footer-socials">
             <a href="#" className="footer-social">Instagram</a>
