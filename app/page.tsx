@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <>
       {/* ---- TOP BAR ---- */}
-      <div className="top-bar">Coming Soon</div>
+      <div className="top-bar">
+        <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
+        Coming Soon
+      </div>
 
       {/* ---- SWATCH CARD WRAPPER ---- */}
       <div className="swatch-card">
@@ -59,6 +62,14 @@ export default function Home() {
             <div style={{ backgroundColor: "#1C0D07" }} />
           </div>
           <p className="monk-strip-label">Mira. That&rsquo;s You.</p>
+        </section>
+
+        {/* ---- FUCHSIA COLOR BANNER ---- */}
+        <section className="color-banner color-banner--fuchsia">
+          <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
+          <p className="color-banner-text">
+            Beauty has no single shade.
+          </p>
         </section>
 
         {/* ---- CONCEPT ---- */}
@@ -143,9 +154,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ---- EMBER COLOR BANNER ---- */}
-        <section className="color-banner">
-          <span className="swatch-label">EMBER · #C4714A</span>
+        {/* ---- GOLD COLOR BANNER ---- */}
+        <section className="color-banner color-banner--gold">
+          <span className="swatch-label">GOLD · #E2B93B</span>
           <p className="color-banner-text">
             Your beauty. Your community. Your mirror.
           </p>

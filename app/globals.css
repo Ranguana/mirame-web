@@ -19,6 +19,10 @@
   --border: #E8DDD4;
   --border-strong: #C4B4A8;
 
+  /* Accents */
+  --gold: #E2B93B;
+  --fuchsia: #D6336C;
+
   /* Semantic */
   --error: #A63520;
   --success: #2D5A27;
@@ -97,7 +101,7 @@ body {
 /* ---- TOP BAR ---- */
 
 .top-bar {
-  background-color: var(--oxblood);
+  background-color: var(--fuchsia);
   color: var(--text-inverse);
   text-align: center;
   padding: var(--space-md) var(--space-lg);
@@ -158,7 +162,7 @@ body {
 }
 
 .masthead-nav a:hover {
-  color: var(--ember);
+  color: var(--fuchsia);
 }
 
 /* ---- HERO ---- */
@@ -183,7 +187,7 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  color: var(--deep-rose);
+  color: var(--fuchsia);
   font-weight: 600;
   margin-bottom: var(--space-xl);
 }
@@ -301,7 +305,7 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  color: var(--deep-rose);
+  color: var(--gold);
   font-weight: 600;
   text-align: center;
   margin-top: var(--space-xl);
@@ -318,6 +322,22 @@ body {
 
 .color-banner--rose {
   background-color: var(--deep-rose);
+}
+
+.color-banner--gold {
+  background-color: var(--gold);
+}
+
+.color-banner--gold .color-banner-text {
+  color: var(--oxblood);
+}
+
+.color-banner--fuchsia {
+  background-color: var(--fuchsia);
+}
+
+.color-banner--fuchsia .color-banner-text {
+  color: var(--paper);
 }
 
 .color-banner-text {
@@ -388,7 +408,7 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  color: var(--deep-rose);
+  color: var(--fuchsia);
   font-weight: 600;
   margin-bottom: var(--space-lg);
 }
@@ -476,7 +496,7 @@ body {
 }
 
 .pillar-icon--kit {
-  background-color: var(--ember);
+  background-color: var(--fuchsia);
 }
 
 .pillar-icon--skin {
@@ -501,7 +521,7 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  color: var(--deep-rose);
+  color: var(--fuchsia);
   font-weight: 600;
   margin-bottom: var(--space-base);
 }
@@ -594,7 +614,7 @@ body {
   font-family: var(--serif);
   font-size: 40px;
   font-weight: normal;
-  color: var(--ember);
+  color: var(--gold);
   margin-bottom: var(--space-base);
   line-height: 1;
 }
@@ -942,7 +962,7 @@ body {
 
 .footer-social:hover {
   opacity: 1;
-  color: var(--ember);
+  color: var(--fuchsia);
 }
 
 /* ---- SWATCH CARD / PAINT CHIP LABELS ---- */
@@ -953,7 +973,8 @@ body {
   font-size: 8px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  opacity: 0.35;
+  color: var(--gold);
+  opacity: 0.5;
   font-weight: 500;
   margin-bottom: var(--space-base);
 }
