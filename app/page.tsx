@@ -42,8 +42,11 @@ export default function Home() {
             </a>
           </div>
           <div className="hero-right">
-            <span className="swatch-label">EMBER · #C4714A</span>
-            <div className="hero-right-tagline">Mira. That&rsquo;s You.</div>
+            <div className="hero-stripe hero-stripe--fuchsia"></div>
+            <div className="hero-stripe hero-stripe--gold">
+              <span className="hero-right-tagline">Mira. That&rsquo;s You.</span>
+            </div>
+            <div className="hero-stripe hero-stripe--orange"></div>
           </div>
         </section>
 

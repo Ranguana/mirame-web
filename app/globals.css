@@ -217,18 +217,35 @@ body {
 }
 
 .hero-right {
-  background-color: var(--oxblood);
   display: flex;
   flex-direction: column;
+  padding: 0;
+}
+
+.hero-stripe {
+  flex: 1;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 56px;
+}
+
+.hero-stripe--fuchsia {
+  background-color: var(--fuchsia);
+}
+
+.hero-stripe--gold {
+  background-color: var(--gold);
+}
+
+.hero-stripe--orange {
+  background-color: var(--ember);
 }
 
 .hero-right-tagline {
   font-family: var(--serif);
   font-size: clamp(36px, 5vw, 64px);
-  color: var(--text-inverse);
+  color: var(--oxblood);
   text-align: center;
   font-style: italic;
   line-height: 1.25;
@@ -1003,7 +1020,8 @@ body {
   }
 
   .hero-right {
-    padding: 64px 40px;
+    padding: 0;
+    min-height: 300px;
   }
 
   .concept {
@@ -1061,7 +1079,8 @@ body {
   }
 
   .hero-right {
-    padding: 48px 24px;
+    padding: 0;
+    min-height: 240px;
   }
 
   .concept-left,
