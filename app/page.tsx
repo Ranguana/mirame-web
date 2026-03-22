@@ -9,6 +9,7 @@ export default function Home() {
         <header className="masthead">
           <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
           <h1 className="masthead-title">MiraMe</h1>
+          <p className="masthead-tagline">Mira. That&rsquo;s You.</p>
           <nav className="masthead-nav">
             <a href="#runway">The Feed</a>
             <a href="#pillars">Your Profile</a>
@@ -35,9 +36,7 @@ export default function Home() {
             </a>
           </div>
           <div className="hero-right">
-            <div className="hero-stripe hero-stripe--gold">
-              <span className="hero-right-tagline">Mira. That&rsquo;s You.</span>
-            </div>
+            <div className="hero-stripe hero-stripe--gold"></div>
             <div className="hero-stripe hero-stripe--orange"></div>
           </div>
         </section>
