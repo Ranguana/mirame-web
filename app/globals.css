@@ -117,7 +117,7 @@ body {
 .masthead {
   text-align: center;
   padding: var(--space-xxl) var(--space-lg) var(--space-xl);
-  background-color: var(--paper);
+  background-color: var(--fuchsia);
   border-bottom: 3px solid var(--paper);
 }
 
@@ -125,13 +125,10 @@ body {
   font-family: var(--serif);
   font-size: clamp(52px, 12vw, 120px);
   font-weight: normal;
+  color: var(--paper);
   line-height: 1.1;
   margin-bottom: var(--space-sm);
   letter-spacing: -0.3px;
-  background: linear-gradient(90deg, var(--fuchsia) 0%, var(--gold) 50%, var(--ember) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .masthead-tagline {
@@ -150,7 +147,7 @@ body {
   gap: var(--space-xxl);
   padding-top: var(--space-lg);
   margin-top: var(--space-lg);
-  border-top: 0.5px solid var(--border);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.25);
 }
 
 .masthead-nav a {
@@ -158,14 +155,14 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.25s ease;
 }
 
 .masthead-nav a:hover {
-  color: var(--fuchsia);
+  color: var(--paper);
 }
 
 /* ---- HERO ---- */
