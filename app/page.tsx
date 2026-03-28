@@ -24,12 +24,12 @@ export default function Home() {
             <span className="swatch-label">CREAM · #FBF7F3</span>
             <p className="hero-kicker">A new kind of beauty app</p>
             <h2 className="hero-headline">
-              Post it. Tag it. <em>Shop it.</em>
+              See their routine. <em>Share yours.</em>
             </h2>
             <p className="hero-deck">
-              MiraMe is a beauty social network where your feed is powered by
-              people who actually share your skin tone, hair texture, and style.
-              Every post is shoppable. Every recommendation is real.
+              MiraMe is a beauty community where you get inside the routines
+              of people who actually share your skin tone, hair texture, and style.
+              See what they use. Learn how they do it. Share yours back.
             </p>
             <a href="#waitlist" className="cta-btn">
               Join the Waitlist
@@ -62,7 +62,7 @@ export default function Home() {
         <section className="color-banner color-banner--fuchsia">
           <span className="swatch-label swatch-label--light">FUCHSIA · #D6336C</span>
           <p className="color-banner-text">
-            Your feed. Your people. Your products.
+            Your feed. Your people. Your routines.
           </p>
         </section>
 
@@ -148,16 +148,16 @@ export default function Home() {
             </div>
             <div className="how-step">
               <div className="how-step-num">03</div>
-              <h3 className="how-step-title">Post Your Routine</h3>
+              <h3 className="how-step-title">Peek Inside</h3>
               <p className="how-step-desc">
-                Share what works. Tag your products.
+                See the full routines of people who match your profile.
               </p>
             </div>
             <div className="how-step">
               <div className="how-step-num">04</div>
-              <h3 className="how-step-title">Shop in One Tap</h3>
+              <h3 className="how-step-title">Share Yours</h3>
               <p className="how-step-desc">
-                Buy directly from any post on your feed.
+                Post your routine and become someone else&rsquo;s inspiration.
               </p>
             </div>
           </div>
@@ -176,9 +176,10 @@ export default function Home() {
           <div className="runway-left">
             <h2 className="section-heading">The Runway</h2>
             <p className="section-body" style={{ marginBottom: 32 }}>
-              A shoppable feed of real beauty routines from people who match
-              your profile. See what works for someone with your exact skin
-              tone and hair type &mdash; then shop it in one tap.
+              A feed of real beauty routines from people who match your
+              profile. See exactly what they use, how they apply it, and
+              why it works &mdash; from someone with your exact skin tone
+              and hair type.
             </p>
             <a href="#waitlist" className="cta-btn cta-btn--outline">
               Join the Waitlist
@@ -200,7 +201,7 @@ export default function Home() {
                   <div className="phone-image">RUNWAY</div>
                   <div className="phone-actions">
                     <span className="phone-action">Love</span>
-                    <span className="phone-action phone-action--shop">Shop</span>
+                    <span className="phone-action phone-action--shop">Save</span>
                   </div>
                   <div className="phone-tags">
                     <span className="phone-tag">Fenty Gloss Bomb</span>
@@ -219,7 +220,7 @@ export default function Home() {
                   <div className="phone-image">ROUTINE</div>
                   <div className="phone-actions">
                     <span className="phone-action">Love</span>
-                    <span className="phone-action phone-action--shop">Shop</span>
+                    <span className="phone-action phone-action--shop">Save</span>
                   </div>
                   <div className="phone-tags">
                     <span className="phone-tag">CeraVe PM</span>
